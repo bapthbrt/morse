@@ -29,8 +29,8 @@ class Morse:
         ".--": "W",
         "-..-": "X",
         "-.--": "Y",
-        "--..": "Z"
-
+        "--..": "Z",
+        "/": " "
     }
 
     def decode(self, message):
